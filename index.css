@@ -79,7 +79,7 @@ body{
     width: auto;
     background-color: rgb(116, 105, 105);
     color: white;
-    background-image: url(/assets/image\ 3.png);
+    background-image: url('./assets/image\ 3.png');
     background-blend-mode:multiply;
     display: flex;
     justify-content: center;
