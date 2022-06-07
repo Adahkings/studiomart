@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo{
+    height: auto;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    height: auto;
+    width: 100%;
+
+}
+.menu{
+   list-style: none;
+   display: flex;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 16px; 
+   font-weight: 900; 
+}
+.menu li{
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin: 0 .5rem;
+    color: rgb(175, 28, 175);
+
+}
+.addlog{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 50px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+
+}
+.rightmenu{
+    display: flex;
+    align-items: center;
+
+}
+.rightmenu div{
+    padding-left: 2rem;
+
+}
+.signup{
+    border: 0;
+    background-color: rgb(175, 28, 175);
+    color: white;
+    width: 6rem;
+    height: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-left: 2rem;
+
+}
+.box{
+    background-color: rgb(241, 215, 241);
+
+}
+.hero{
+    height: 80vh;
+    width: auto;
+    background-color: rgb(116, 105, 105);
+    color: white;
+    background-image: url(/assets/image\ 3.png);
+    background-blend-mode:multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.hero h1{
+    font-size: 55px;
+    width: 60%;
+    text-align: center;
+
+}
+.hero p{
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+
+}
+.btt{
+    width: 20%;
+    height: 65px;
+    border: 0;
+    border-radius: .5rem;
+    color: white;
+    background-color: rgb(175, 28, 175);
+    font-size: 18px;
+
+}
+.btt:hover{
+    /* color: black; */
+    background-color: rgb(76, 14, 78);
+}
+.allabout{
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.mage{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(182, 180, 182);
+    border-radius: 10px;
+
+}
+.gee{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.us{
+    width: 100%;
+}
+.us h1{
+    color: purple;
+
+}
+.us p{
+    margin-right: 2rem;
+
+}
+.bbt{
+    border: 2px solid black;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 8px;
+    color: purple;
+    background-color: white;
+    font-weight: 700;
+    margin-top: 1rem;
+}
